@@ -7,8 +7,18 @@ python -m venv (nome do sistema)
 # instalar o arquivo requirements.txt
 pip install -r requirements.txt
 
+--
+Quando você tem o pyMUPDF, você também tem o fitz. As dependências com o pymuPDF parecem funcionar melhor
+
+#desinstalar o módulo/pacote fitz existente
+pip uninstall fitz
+
+#Instalar(ou reinstalar) módulo pymupdf(verificar se está instalado: pip show pymupdf)
+pip install pymupdf
+
+--
+
 # executar o arquivo
 streamlit run bayes.py
-
 
 
