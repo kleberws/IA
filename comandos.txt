@@ -1,0 +1,14 @@
+# criar um ambiente virtual
+python -m venv (nome do sistema)
+
+# ativar o ambiente virtual
+(nome do ambiente)\Scripts\activate
+
+# instalar o arquivo requirements.txt
+pip install -r requirements.txt
+
+# executar o arquivo
+streamlit run bayes.py
+
+
+
